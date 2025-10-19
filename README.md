@@ -63,7 +63,7 @@ import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { celoSepoliaTestnet, sepolia } from './config'
 
 export const config = getDefaultConfig({
-  appName: "SwapX",
+  appName: "XYZ",
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "YOUR_WALLETCONNECT_PROJECT_ID",
   chains: [celoSepoliaTestnet, sepolia],
   ssr: true,
