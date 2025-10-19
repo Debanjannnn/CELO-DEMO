@@ -5,7 +5,11 @@ This app connects wallets via RainbowKit and uses Wagmi/viem to interact with a 
 ### Install dependencies
 
 ```bash
+# Using bun
 bun add @rainbow-me/rainbowkit@latest wagmi viem @tanstack/react-query
+
+# Or using npm
+npm install @rainbow-me/rainbowkit wagmi viem@2.x @tanstack/react-query
 ```
 
 Set your WalletConnect Project ID (required by RainbowKit):
@@ -549,7 +553,11 @@ export default Will
 Run the dev server:
 
 ```bash
+# Using bun
 bun run dev
+
+# Or using npm
+npm run dev
 ```
 
 Open `http://localhost:3000` and click “Connect Wallet” to connect via RainbowKit. Once connected, contract actions in `components/Will.tsx` can be used via Wagmi.
